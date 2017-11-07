@@ -90,7 +90,7 @@ app.get('/pagecount', function (req, res) {
 });
 
 app.get('/myendpoint', function (req, res) {
-  res.send('ARE U Sabre/Green');
+  res.send('ARE U Blue');
 });  
 
 // error handling
