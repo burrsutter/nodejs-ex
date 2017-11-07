@@ -89,6 +89,10 @@ app.get('/pagecount', function (req, res) {
   }
 });
 
+app.get('/myendpoint', function (req, res) {
+  res.send('Whatever');
+});  
+
 // error handling
 app.use(function(err, req, res, next){
   console.error(err.stack);
