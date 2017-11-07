@@ -90,7 +90,7 @@ app.get('/pagecount', function (req, res) {
 });
 
 app.get('/myendpoint', function (req, res) {
-  res.send('ARE U Blue');
+  res.send('Polish JUG');
 });  
 
 // error handling
